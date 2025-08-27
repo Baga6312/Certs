@@ -1,82 +1,41 @@
 {
   "main": {
-    "id": "ad1c1fd0848d22f9",
+    "id": "1ebf4140b981c751",
     "type": "split",
     "children": [
       {
-        "id": "058c8d0a336d69c6",
+        "id": "680a7735519183bc",
         "type": "tabs",
         "children": [
           {
-            "id": "fa19fb852c9e114d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "9eeed3c0395c606a",
+            "id": "4247cc0e206f656f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certs/eJPT.md",
+                "file": "ejpt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "eJPT"
-            }
-          },
-          {
-            "id": "334d65d2c2d1c52f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Certs/eJPT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "eJPT"
-            }
-          },
-          {
-            "id": "68759d162ef07e89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Certs/eJPT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "eJPT"
+              "title": "ejpt"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "79a291a34f9d6ea3",
+    "id": "3140b91f484765e0",
     "type": "split",
     "children": [
       {
-        "id": "12a16c2b0288a4fa",
+        "id": "eeccc94ca50668dc",
         "type": "tabs",
         "children": [
           {
-            "id": "bfc2b4c15c4dc3b1",
+            "id": "cd4f51323dbd5ec5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -89,13 +48,13 @@
             }
           },
           {
-            "id": "b04be392b39bdac6",
+            "id": "473800b118ee89f8",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -106,7 +65,7 @@
             }
           },
           {
-            "id": "f22218cfcfc2cfff",
+            "id": "a097283864eab639",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -122,19 +81,20 @@
     "width": 200
   },
   "right": {
-    "id": "906421fb03648ac4",
+    "id": "2cd03d121329b0a2",
     "type": "split",
     "children": [
       {
-        "id": "479aee7e0db67fc0",
+        "id": "e3202a39c1fc03f7",
         "type": "tabs",
         "children": [
           {
-            "id": "1aa92c730c415564",
+            "id": "04b7deffcb518fc6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ejpt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,24 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for ejpt"
             }
           },
           {
-            "id": "b9b0fb5a40d72733",
+            "id": "80de0693a753503d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ejpt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from ejpt"
             }
           },
           {
-            "id": "ca43ed6661c1e369",
+            "id": "72e2f9b2c3338b40",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -176,18 +137,18 @@
             }
           },
           {
-            "id": "8aabb688a2b9680c",
+            "id": "3ec249019c562b9d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20250114192725.png.md",
+                "file": "ejpt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20250114192725.png"
+              "title": "Outline of ejpt"
             }
           }
         ]
@@ -199,61 +160,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "68759d162ef07e89",
-  "lastOpenFiles": [
-    "Certs/eWPT.md",
-    "Certs/eJPT.md",
-    "README.md",
-    "programming/esp32_marauder_project/shopping.md",
-    "programming/esp32_marauder_project/project.md",
-    "programming/esp32_marauder_project/esp32-WROOM.md",
-    "programming/esp32_marauder_project/esp32_maruader.md",
-    "programming/esp32_marauder_project",
-    "other stuff/t5albiz.md",
-    "other stuff/upwork-portfolio.md",
-    "other stuff/tech_Stuff.md",
-    "other stuff/series to watch.md",
-    "programming/ricing-bspwm/rofi.md",
-    "programming/ricing-bspwm/rice.md",
-    "programming/ricing-bspwm/Pasted image 20240824094437.png",
-    "programming/python/recaptcha.md",
-    "programming/python/aircrack-multithreading.md",
-    "programming/code/obsidian-vault/CTF/HTB/challanges/challanges.md",
-    "upwork.md",
-    "Untitled.md",
-    "upwork/Playwright-upwork/TODO.md",
-    "upwork/Playwright-upwork/checks.md",
-    "upwork/Playwright-upwork/django.md",
-    "upwork/Playwright-upwork/finger.md",
-    "upwork/Playwright-upwork/Plawright browser-upwork.md",
-    "upwork/Playwright-upwork/Playwright Browser System - 6.6.25.pdf",
-    "upwork/Playwright-upwork/psql.md",
-    "programming/code/obsidian-vault/CTF/HTB/challanges",
-    "programming/code/obsidian-vault/CTF/HTB",
-    "programming/code/obsidian-vault/CTF",
-    "programming/code/obsidian-vault",
-    "programming/code",
-    "Certs/certs.md",
-    "upwork/apple_cyber_invis",
-    "upwork/Playwright-upwork",
-    "upwork/Diavolo-upwork",
-    "Pasted image 20250603185247.png",
-    "CPS/sem-2/Computer-Vision/WhatsApp Image 2024-04-30 at 10.13.23 PM.jpeg",
-    "CPS/sem-2/emploit.jpeg",
-    "CPS/sem-2/projects/ComputerVision/20250501145710.png",
-    "CPS/sem-2/projects/ComputerVision/20250501145945.png",
-    "CPS/sem-2/projects/ComputerVision/20250501145655.png",
-    "CPS/sem-2/projects/ComputerVision/20250501145651.png",
-    "CPS/sem-2/projects/ComputerVision/20250501145240.png",
-    "CPS/sem-2/projects/ComputerVision/20250501144151.png"
-  ]
+  "active": "4247cc0e206f656f",
+  "lastOpenFiles": []
 }
