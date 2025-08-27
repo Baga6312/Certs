@@ -40,7 +40,7 @@
 - [ ] [TryHackMe | Source](https://tryhackme.com/room/source)
 - [ ] [TryHackMe | Overpass](https://tryhackme.com/room/overpass)
 - [ ] [TryHackMe | Gotta Catch'em All!](https://tryhackme.com/room/pokemon)
-- [ ] [TryHackMe | Bolt](https://tryhackme.com/room/bolt)
+- [x] [TryHackMe | Bolt](https://tryhackme.com/room/bolt)
 - [ ] [TryHackMe | kiba](https://tryhackme.com/room/kiba)
 - [x] [TryHackMe | Poster](https://tryhackme.com/room/poster)
 - [ ] [TryHackMe | Chocolate Factory](https://tryhackme.com/room/chocolatefactory)
