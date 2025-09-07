@@ -1,4 +1,75 @@
-- [x] [TryHackMe | GamingServer](https://tryhackme.com/room/gamingserver)
+#!/usr/bin/env python3
+
+import re
+import sys
+import os
+
+def extract_task_name(line):
+    """
+    Extract the task name from a markdown link format.
+    Handles formats like: - [ ] [TryHackMe | RustScan](https://tryhackme.com/room/rustscan)
+    """
+    # Pattern to match markdown link: [text](url)
+    link_pattern = r'\[([^\]]+)\]'
+    matches = re.findall(link_pattern, line)
+    
+    if matches:
+        # Return the first match (the link text)
+        return matches[0].strip()
+    else:
+        # If no markdown link found, extract text after checkbox
+        # Remove checkbox pattern and clean up
+        cleaned = re.sub(r'^\s*-\s*\[\s*\]\s*', '', line).strip()
+        return cleaned if cleaned else line.strip()
+
+def get_unchecked_tasks(filename):
+    """
+    Get names of unchecked tasks from ejpt.md file.
+    """
+    if not os.path.exists(filename):
+        print(f"Error: File '{filename}' not found.")
+        return
+    
+    try:
+        with open(filename, 'r', encoding='utf-8') as file:
+            lines = file.readlines()
+    except Exception as e:
+        print(f"Error reading file: {e}")
+        return
+    
+    unchecked_tasks = []
+    
+    # Pattern to match lines with unchecked tasks: - [ ] (empty checkbox)
+    pattern = r'^\s*-\s*\[\s*\]\s*'
+    
+    for i, line in enumerate(lines):
+        if re.match(pattern, line):
+            task_name = extract_task_name(line)
+            print(f"Index {i+1}: {task_name}")
+            unchecked_tasks.append(task_name)
+    
+    print(f"\n--- Unchecked Tasks (Total: {len(unchecked_tasks)}) ---")
+    for task in unchecked_tasks:
+        print(task)
+    
+    # Also save to CSV format for easy import to wheel picker
+    if unchecked_tasks:
+        csv_filename = "unchecked_tasks.csv"
+        try:
+            with open(csv_filename, 'w', encoding='utf-8') as csv_file:
+                for task in unchecked_tasks:
+                    # Escape commas in task names
+                    if ',' in task:
+                        csv_file.write(f'"{task}"\n')
+                    else:
+                        csv_file.write(f'{task}\n')
+            print(f"\n✅ Saved to '{csv_filename}' - Ready for wheel picker!")
+        except Exception as e:
+            print(f"Error saving CSV: {e}")
+
+if __name__ == "__main__":
+    # Test with the provided content
+    content = """- [ ] [TryHackMe | GamingServer](https://tryhackme.com/room/gamingserver)
 - [x] [TryHackMe | OverlayFS - CVE-2021-3493](https://tryhackme.com/room/overlayfs)
 - [x] [TryHackMe | Psycho Break](https://tryhackme.com/room/psychobreak)
 - [x] [TryHackMe | Bounty Hacker](https://tryhackme.com/room/cowboyhacker)
@@ -8,7 +79,7 @@
 - [x] [TryHackMe | Pickle Rick](https://tryhackme.com/room/picklerick)
 - [x] [TryHackMe | c4ptur3-th3-fl4g](https://tryhackme.com/room/c4ptur3th3fl4g)
 - [x] [TryHackMe | Library](https://tryhackme.com/room/bsidesgtlibrary)
-- [x] [TryHackMe | Thompson](https://tryhackme.com/room/bsidesgtthompson)
+- [ ] [TryHackMe | Thompson](https://tryhackme.com/room/bsidesgtthompson)
 - [x] [TryHackMe | Simple CTF](https://tryhackme.com/room/easyctf)
 - [x] [TryHackMe | LazyAdmin](https://tryhackme.com/room/lazyadmin)
 - [x] [TryHackMe | Anonforce](https://tryhackme.com/room/bsidesgtanonforce)
@@ -29,7 +100,7 @@
 - [x] [TryHackMe | Brooklyn Nine Nine](https://tryhackme.com/room/brooklynninenine)
 - [x] [TryHackMe | Year of the Rabbit](https://tryhackme.com/room/yearoftherabbit)
 - [x] [TryHackMe | Jack-of-All-Trades](https://tryhackme.com/room/jackofalltrades)
-- [x] [TryHackMe | Madness](https://tryhackme.com/room/madness)
+- [ ] [TryHackMe | Madness](https://tryhackme.com/room/madness)
 - [x] [TryHackMe | KoTH Food CTF](https://tryhackme.com/room/kothfoodctf)
 - [x] [TryHackMe | Easy Peasy](https://tryhackme.com/room/easypeasyctf)
 - [x] [TryHackMe | Tony the Tiger](https://tryhackme.com/room/tonythetiger)
@@ -37,24 +108,24 @@
 - [x] [TryHackMe | Smag Grotto](https://tryhackme.com/room/smaggrotto)
 - [x] [TryHackMe | Couch](https://tryhackme.com/room/couch)
 - [x] [TryHackMe | Source](https://tryhackme.com/room/source)
-- [x] [TryHackMe | Overpass](https://tryhackme.com/room/overpass)
+- [ ] [TryHackMe | Overpass](https://tryhackme.com/room/overpass)
 - [x] [TryHackMe | Bolt](https://tryhackme.com/room/bolt)
 - [x] [TryHackMe | kiba](https://tryhackme.com/room/kiba)
 - [x] [TryHackMe | Poster](https://tryhackme.com/room/poster)
-- [x] [TryHackMe | Chocolate Factory](https://tryhackme.com/room/chocolatefactory)
+- [ ] [TryHackMe | Chocolate Factory](https://tryhackme.com/room/chocolatefactory)
 - [x] [TryHackMe | Startup](https://tryhackme.com/room/startup)
 - [x] [TryHackMe | Chill Hack](https://tryhackme.com/room/chillhack)
-- [x] [TryHackMe | ColddBox: Easy](https://tryhackme.com/room/colddboxeasy)
+- [ ] [TryHackMe | ColddBox: Easy](https://tryhackme.com/room/colddboxeasy)
 - [x] [TryHackMe | GLITCH](https://tryhackme.com/room/glitch)
 - [x] [TryHackMe | All in One](https://tryhackme.com/room/allinonemj)
-- [x] [TryHackMe | Archangel](https://tryhackme.com/room/archangel)
+- [ ] [TryHackMe | Archangel](https://tryhackme.com/room/archangel)
 - [x] [TryHackMe | Cyborg](https://tryhackme.com/room/cyborgt8)
 - [x] [TryHackMe | Badbyte](https://tryhackme.com/room/badbyte)
 - [x] [TryHackMe | Team](https://tryhackme.com/room/teamcw)
 - [x] [TryHackMe | VulnNet: Node](https://tryhackme.com/room/vulnnetnode)
 - [ ] [TryHackMe | VulnNet: Internal](https://tryhackme.com/room/vulnnetinternal)
 - [x] [TryHackMe | Atlas](https://tryhackme.com/room/atlas)
-- [x] [TryHackMe | VulnNet: Roasted](https://tryhackme.com/room/vulnnetroasted)
+- [ ] [TryHackMe | VulnNet: Roasted](https://tryhackme.com/room/vulnnetroasted)
 - [x] [TryHackMe | Cat Pictures](https://tryhackme.com/room/catpictures)
 - [x] [TryHackMe | Mustacchio](https://tryhackme.com/room/mustacchio)
 - [ ] [TryHackMe | hackerNote](https://tryhackme.com/room/hackernote)
@@ -86,4 +157,10 @@
 - [ ] [TryHackMe | VulnNet: Active](https://tryhackme.com/room/vulnnetactive)
 - [x] [TryHackMe | Anthem](https://tryhackme.com/room/anthem)
 - [x] [TryHackMe | Blue](https://tryhackme.com/room/blue)
-[[certs]]
+[[certs]]"""
+    
+    if len(sys.argv) > 1:
+        filename = sys.argv[1]
+        get_unchecked_tasks(filename)
+    else:
+        get_unchecked_tasks(content=content)
