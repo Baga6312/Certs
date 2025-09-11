@@ -7,25 +7,25 @@
 - [x] [TryHackMe | AttackerKB](https://tryhackme.com/room/attackerkb)
 - [x] [TryHackMe | Pickle Rick](https://tryhackme.com/room/picklerick)
 - [x] [TryHackMe | c4ptur3-th3-fl4g](https://tryhackme.com/room/c4ptur3th3fl4g)
-- [x] [TryHackMe | Library](https://tryhackme.com/room/bsidesgtlibrary)
+- [x] [TryHackMe | Library](https://tryhackme.com/room/bsidesgtlibrary)                                                         //replay 
 - [x] [TryHackMe | Thompson](https://tryhackme.com/room/bsidesgtthompson)
 - [x] [TryHackMe | Simple CTF](https://tryhackme.com/room/easyctf)
 - [x] [TryHackMe | LazyAdmin](https://tryhackme.com/room/lazyadmin)
-- [x] [TryHackMe | Anonforce](https://tryhackme.com/room/bsidesgtanonforce)
+- [x] [TryHackMe | Anonforce](https://tryhackme.com/room/bsidesgtanonforce)                                           //replay
 - [x] [TryHackMe | Ignite](https://tryhackme.com/room/ignite)
 - [x] [TryHackMe | Wgel CTF](https://tryhackme.com/room/wgelctf)
 - [x] [TryHackMe | Cryptography for Dummies](https://tryhackme.com/room/cryptographyfordummies)
 - [x] [TryHackMe | Crack the hash](https://tryhackme.com/room/crackthehash)
-- [ ] [TryHackMe | Crack The Hash Level 2](https://tryhackme.com/room/crackthehashlevel2)
+- [x] [TryHackMe | Crack The Hash Level 2](https://tryhackme.com/room/crackthehashlevel2)
 - [x] [TryHackMe | Agent Sudo](https://tryhackme.com/room/agentsudoctf)
 - [x] [TryHackMe | Brute It](https://tryhackme.com/room/bruteit)
 - [x] [TryHackMe | Kenobi](https://tryhackme.com/room/kenobi)
 - [x] [TryHackMe | Dav](https://tryhackme.com/room/bsidesgtdav)
 - [x] [TryHackMe | Ninja Skills](https://tryhackme.com/room/ninjaskills)
-- [x] [TryHackMe | Ice](https://tryhackme.com/room/ice)
-- [ ] [TryHackMe | The Cod Caper](https://tryhackme.com/room/thecodcaper)
+- [x] [TryHackMe | Ice](https://tryhackme.com/room/ice)                                            //replay 
+- [x] [TryHackMe | The Cod Caper](https://tryhackme.com/room/thecodcaper)
 - [x] [TryHackMe | Blaster](https://tryhackme.com/room/blaster)
-- [ ] [TryHackMe | Encryption - Crypto 101](https://tryhackme.com/room/encryptioncrypto101)
+- [x] [TryHackMe | Encryption - Crypto 101](https://tryhackme.com/room/encryptioncrypto101)
 - [x] [TryHackMe | Brooklyn Nine Nine](https://tryhackme.com/room/brooklynninenine)
 - [x] [TryHackMe | Year of the Rabbit](https://tryhackme.com/room/yearoftherabbit)
 - [x] [TryHackMe | Jack-of-All-Trades](https://tryhackme.com/room/jackofalltrades)
@@ -42,48 +42,48 @@
 - [x] [TryHackMe | kiba](https://tryhackme.com/room/kiba)
 - [x] [TryHackMe | Poster](https://tryhackme.com/room/poster)
 - [x] [TryHackMe | Chocolate Factory](https://tryhackme.com/room/chocolatefactory)
-- [x] [TryHackMe | Startup](https://tryhackme.com/room/startup)
-- [x] [TryHackMe | Chill Hack](https://tryhackme.com/room/chillhack)
+- [x] [TryHackMe | Startup](https://tryhackme.com/room/startup)                                                     //replay 
+- [x] [TryHackMe | Chill Hack](https://tryhackme.com/room/chillhack)                                 //replay
 - [x] [TryHackMe | ColddBox: Easy](https://tryhackme.com/room/colddboxeasy)
 - [x] [TryHackMe | GLITCH](https://tryhackme.com/room/glitch)
 - [x] [TryHackMe | All in One](https://tryhackme.com/room/allinonemj)
-- [x] [TryHackMe | Archangel](https://tryhackme.com/room/archangel)
+- [x] [TryHackMe | Archangel](https://tryhackme.com/room/archangel)                                     //replay 
 - [x] [TryHackMe | Cyborg](https://tryhackme.com/room/cyborgt8)
-- [x] [TryHackMe | Badbyte](https://tryhackme.com/room/badbyte)
+- [x] [TryHackMe | Badbyte](https://tryhackme.com/room/badbyte)                                                   //Replay 
 - [x] [TryHackMe | Team](https://tryhackme.com/room/teamcw)
 - [x] [TryHackMe | VulnNet: Node](https://tryhackme.com/room/vulnnetnode)
-- [ ] [TryHackMe | VulnNet: Internal](https://tryhackme.com/room/vulnnetinternal)
-- [x] [TryHackMe | Atlas](https://tryhackme.com/room/atlas)
-- [x] [TryHackMe | VulnNet: Roasted](https://tryhackme.com/room/vulnnetroasted)
+- [x] [TryHackMe | VulnNet: Internal](https://tryhackme.com/room/vulnnetinternal)                                             //Replay 
+- [x] [TryHackMe | Atlas](https://tryhackme.com/room/atlas)                                  //replay 
+- [x] [TryHackMe | VulnNet: Roasted](https://tryhackme.com/room/vulnnetroasted)                                                //replay
 - [x] [TryHackMe | Cat Pictures](https://tryhackme.com/room/catpictures)
-- [x] [TryHackMe | Mustacchio](https://tryhackme.com/room/mustacchio)
-- [ ] [TryHackMe | hackerNote](https://tryhackme.com/room/hackernote)
-- [x] [TryHackMe | Anonymous](https://tryhackme.com/room/anonymous)
+- [x] [TryHackMe | Mustacchio](https://tryhackme.com/room/mustacchio)                        //replay
+- [x] [TryHackMe | hackerNote](https://tryhackme.com/room/hackernote)
+- [x] [TryHackMe | Anonymous](https://tryhackme.com/room/anonymous)                                 //replay
 - [x] [TryHackMe | GoldenEye](https://tryhackme.com/room/goldeneye)
 - [x] [TryHackMe | HA Joker CTF](https://tryhackme.com/room/jokerctf)
 - [x] [TryHackMe | Metasploit Introduction](https://tryhackme.com/room/metasploitintro)
 - [ ] [TryHackMe | Post-exploitation Basics](https://tryhackme.com/room/postexploit)
 - [ ] [TryHackMe | Intro PoC Scripting](https://tryhackme.com/room/intropocscripting)
-- [x] [TryHackMe | Deja vu](https://tryhackme.com/room/dejavu)
+- [x] [TryHackMe | Deja vu](https://tryhackme.com/room/dejavu)                                                    //replay
 - [x] [TryHackMe | Vulnversity](https://tryhackme.com/room/vulnversity)
 - [x] [TryHackMe | Vulnerabilities 101](https://tryhackme.com/room/vulnerabilities101)
-- [ ] [TryHackMe | Basic Pentesting](https://tryhackme.com/room/basicpentestingjt)
+- [x] [TryHackMe | Basic Pentesting](https://tryhackme.com/room/basicpentestingjt)
 - [x] [TryHackMe | WordPress CVE-2021–29447](https://tryhackme.com/room/wordpresscve202129447)
 - [x] [TryHackMe | Jason](https://tryhackme.com/room/jason)
 - [x] [TryHackMe | CMSpit](https://tryhackme.com/room/cmspit)
-- [x] [TryHackMe | Blog](https://tryhackme.com/room/blog)
+- [x] [TryHackMe | Blog](https://tryhackme.com/room/blog)                                                //replay
 - [x] [TryHackMe | Hydra](https://tryhackme.com/room/hydra)
 - [x] [TryHackMe | Brute Force Heroes](https://tryhackme.com/room/bruteforceheroes)
 - [x] [TryHackMe | H4cked](https://tryhackme.com/room/h4cked)
-- [ ] [TryHackMe | Undiscovered](https://tryhackme.com/room/undiscoveredup)
-- [ ] [TryHackMe | KoTH Hackers](https://tryhackme.com/room/kothhackers)
-- [ ] [TryHackMe | Wreath](https://tryhackme.com/room/wreath)
-- [x] [TryHackMe | Unbaked Pie](https://tryhackme.com/room/unbakedpie)
-- [ ] [TryHackMe | Nmap Live Host Discovery](https://tryhackme.com/room/nmap01)
+- [x] [TryHackMe | Undiscovered](https://tryhackme.com/room/undiscoveredup)
+- [x] [TryHackMe | KoTH Hackers](https://tryhackme.com/room/kothhackers)
+- [x] [TryHackMe | Wreath](https://tryhackme.com/room/wreath)
+- [x] [TryHackMe | Unbaked Pie](https://tryhackme.com/room/unbakedpie)                                                      //replay
+- [x] [TryHackMe | Nmap Live Host Discovery](https://tryhackme.com/room/nmap01)
 - [x] [TryHackMe | RustScan](https://tryhackme.com/room/rustscan)
 - [x] [TryHackMe | Investigating Windows](https://tryhackme.com/room/investigatingwindows)
-- [x] [TryHackMe | Blueprint](https://tryhackme.com/room/blueprint)
+- [x] [TryHackMe | Blueprint](https://tryhackme.com/room/blueprint)                                                      //replay 
 - [ ] [TryHackMe | VulnNet: Active](https://tryhackme.com/room/vulnnetactive)
-- [x] [TryHackMe | Anthem](https://tryhackme.com/room/anthem)
-- [x] [TryHackMe | Blue](https://tryhackme.com/room/blue)
+- [x] [TryHackMe | Anthem](https://tryhackme.com/room/anthem)                                                    //replay
+- [x] [TryHackMe | Blue](https://tryhackme.com/room/blue)                                                        //replay 
 [[certs]]
