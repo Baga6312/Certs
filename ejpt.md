@@ -62,7 +62,7 @@
 - [x] [TryHackMe | GoldenEye](https://tryhackme.com/room/goldeneye)
 - [x] [TryHackMe | HA Joker CTF](https://tryhackme.com/room/jokerctf)
 - [x] [TryHackMe | Metasploit Introduction](https://tryhackme.com/room/metasploitintro)
-- [ ] [TryHackMe | Post-exploitation Basics](https://tryhackme.com/room/postexploit)
+- [x] [TryHackMe | Post-exploitation Basics](https://tryhackme.com/room/postexploit)
 - [ ] [TryHackMe | Intro PoC Scripting](https://tryhackme.com/room/intropocscripting)
 - [x] [TryHackMe | Deja vu](https://tryhackme.com/room/dejavu)                                                    //replay
 - [x] [TryHackMe | Vulnversity](https://tryhackme.com/room/vulnversity)
