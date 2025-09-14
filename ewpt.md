@@ -1,6 +1,8 @@
 
 # ROOMS AND CHALLENGES
 - [ ] [TryHackMe | WebGOAT](https://tryhackme.com/room/webgoat)
+- [ ] [TryHackMe | owastop1021](https://tryhackme.com/room/owasptop102021)
+- [ ] [TryHackMe | owaspjuiceshop](https://tryhackme.com/room/owaspjuiceshop) 
 
 # Recon and Enumeration Domain 
 - [ ] ### https://blog.appsecco.com/a-penetration-testers-guide-to-sub-domain-enumeration-7d842d5570f6

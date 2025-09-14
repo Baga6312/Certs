@@ -8,31 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9eeed3c0395c606a",
+            "id": "f3d9e8e2672f0e57",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Certs/eJPT.md",
+                "file": "ejpt.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "eJPT"
+              "title": "ejpt"
             }
           },
           {
-            "id": "f3d9e8e2672f0e57",
+            "id": "48573a044dfd8a81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/esp32_marauder_project/shopping.md",
+                "file": "RHCSA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "shopping"
+              "title": "RHCSA"
             }
           }
         ],
@@ -182,8 +184,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f3d9e8e2672f0e57",
+  "active": "48573a044dfd8a81",
   "lastOpenFiles": [
+    "ejpt.md",
+    "RHCSA.md",
+    "ewpt.md",
+    "README.md",
+    "RHCA.md",
+    "RHCE.md",
     "programming/esp32_marauder_project/project.md",
     "programming/esp32_marauder_project/esp32-WROOM.md",
     "programming/esp32_marauder_project/esp32_maruader.md",
@@ -193,7 +201,6 @@
     "CTF/THM/challenges/glitch/rose.jpg",
     "CTF/THM/1c",
     "CTF/THM/challenges/1c",
-    "README.md",
     "programming/esp32_marauder_project/shopping.md",
     "programming/esp32_marauder_project",
     "other stuff/t5albiz.md",
@@ -211,16 +218,12 @@
     "upwork/Playwright-upwork/TODO.md",
     "upwork/Playwright-upwork/checks.md",
     "upwork/Playwright-upwork/django.md",
-    "upwork/Playwright-upwork/finger.md",
-    "upwork/Playwright-upwork/Plawright browser-upwork.md",
     "upwork/Playwright-upwork/Playwright Browser System - 6.6.25.pdf",
-    "upwork/Playwright-upwork/psql.md",
     "programming/code/obsidian-vault/CTF/HTB/challanges",
     "programming/code/obsidian-vault/CTF/HTB",
     "programming/code/obsidian-vault/CTF",
     "programming/code/obsidian-vault",
     "programming/code",
-    "Certs/certs.md",
     "Pasted image 20250603185247.png",
     "CPS/sem-2/Computer-Vision/WhatsApp Image 2024-04-30 at 10.13.23 PM.jpeg",
     "CPS/sem-2/emploit.jpeg",
