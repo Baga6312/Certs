@@ -24,7 +24,21 @@
             }
           },
           {
-            "id": "48573a044dfd8a81",
+            "id": "01999feb390b8c65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ejpt.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ejpt"
+            }
+          },
+          {
+            "id": "8c545df66854243e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,8 +198,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48573a044dfd8a81",
+  "active": "8c545df66854243e",
   "lastOpenFiles": [
+    "shit to study.md",
     "ejpt.md",
     "RHCSA.md",
     "ewpt.md",
@@ -217,7 +232,6 @@
     "upwork.md",
     "upwork/Playwright-upwork/TODO.md",
     "upwork/Playwright-upwork/checks.md",
-    "upwork/Playwright-upwork/django.md",
     "upwork/Playwright-upwork/Playwright Browser System - 6.6.25.pdf",
     "programming/code/obsidian-vault/CTF/HTB/challanges",
     "programming/code/obsidian-vault/CTF/HTB",

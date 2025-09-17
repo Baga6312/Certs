@@ -49,14 +49,14 @@
 - [x] [TryHackMe | All in One](https://tryhackme.com/room/allinonemj)
 - [x] [TryHackMe | Archangel](https://tryhackme.com/room/archangel)                                     //replay 
 - [x] [TryHackMe | Cyborg](https://tryhackme.com/room/cyborgt8)
-- [x] [TryHackMe | Badbyte](https://tryhackme.com/room/badbyte)                                                   //Replay 
+- [x] [TryHackMe | Badbyte](https://tryhackme.com/room/badbyte)
 - [x] [TryHackMe | Team](https://tryhackme.com/room/teamcw)
 - [x] [TryHackMe | VulnNet: Node](https://tryhackme.com/room/vulnnetnode)
 - [x] [TryHackMe | VulnNet: Internal](https://tryhackme.com/room/vulnnetinternal)                                             //Replay 
 - [x] [TryHackMe | Atlas](https://tryhackme.com/room/atlas)                                  //replay 
 - [x] [TryHackMe | VulnNet: Roasted](https://tryhackme.com/room/vulnnetroasted)                                                //replay
 - [x] [TryHackMe | Cat Pictures](https://tryhackme.com/room/catpictures)
-- [x] [TryHackMe | Mustacchio](https://tryhackme.com/room/mustacchio)                        //replay
+- [x] [TryHackMe | Mustacchio](https://tryhackme.com/room/mustacchio)
 - [x] [TryHackMe | hackerNote](https://tryhackme.com/room/hackernote)
 - [x] [TryHackMe | Anonymous](https://tryhackme.com/room/anonymous)                                 //replay
 - [x] [TryHackMe | GoldenEye](https://tryhackme.com/room/goldeneye)
@@ -71,7 +71,7 @@
 - [x] [TryHackMe | WordPress CVE-2021–29447](https://tryhackme.com/room/wordpresscve202129447)
 - [x] [TryHackMe | Jason](https://tryhackme.com/room/jason)
 - [x] [TryHackMe | CMSpit](https://tryhackme.com/room/cmspit)
-- [x] [TryHackMe | Blog](https://tryhackme.com/room/blog)                                                //replay
+- [x] [TryHackMe | Blog](https://tryhackme.com/room/blog)
 - [x] [TryHackMe | Hydra](https://tryhackme.com/room/hydra)
 - [x] [TryHackMe | Brute Force Heroes](https://tryhackme.com/room/bruteforceheroes)
 - [x] [TryHackMe | H4cked](https://tryhackme.com/room/h4cked)
